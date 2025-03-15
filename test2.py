@@ -25,7 +25,7 @@ try:
     
     driver.find_element(By.XPATH,'/html/body/form/div/div/button').click()
     
-    time.sleep(10)
+    time.sleep(6)
 finally:
     driver.quit()
     
